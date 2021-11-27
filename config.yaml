@@ -1,0 +1,160 @@
+baseURL: "https://franciscopereira9.github.io/"
+languageCode: "en-us"
+title: "Francisco Pereira"
+theme: "./.."
+relativeURLs: true
+
+Paginate: 3
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+
+enableEmoji: true
+params:
+  version: 3
+  customCSS: false
+
+  favicon: "/images/logo.png"
+  description: "My personal space."
+
+  # Navbar Menus
+  customMenus:
+    - name: "Blog"
+      Url: "/blog"
+
+  # home
+  disable_home: false
+  profile_image: "/images/fjahp.png"
+  name: "Francisco Pereira"
+  namecolor: ffc107
+  profession: Data Science student at Universty of Amsterdam.
+  github: "https://github.com/FranciscoPereira9"
+  linkedin: "https://www.linkedin.com/in/francisco-de-almeida-pereira/"
+  twitter: "https://twitter.com/franciscop_9"
+
+  # About
+  disable_about: false
+  descripe_l1_person: "Welcome to my page!\n
+  My name is Francisco, I am 22 years old and originally from Portugal."
+
+  descripe_l2_person: "I am currently a Data Science student at the University of Amsterdam and have a background in Electrical and Computers Engineering.\n
+
+  I preety much enjoy everything related to **math** and **computing**.
+  Data Science and Machine Learning is my playground, where I am able to tackle complex problems through a technological and analytical perspective.\n
+  
+  You can find some of my projects [here](#projects)."
+  skills:
+    - name: Python
+    - name: PyTorch
+    - name: Scikit-Learn
+    - name: SQL
+    - name: R
+
+  # Experience
+  disable_experience: false
+  experience:
+    - company: "CycleAI"
+      # id: "cycleai-developer"   // use this, when you want to change the id(used for navigation)
+      role: "Data Analyst"
+      startdate: Apr 2021
+      enddate: Sep 2021
+      featuredpoints:
+        - point: Start up project to estimate and perceive cycling safety through AI.
+        - point: Data analysis on crowd-sourced polls and neural network resuls.
+    - company: "Continental"
+      # id: "google-developer"   // use this, when you want to change the id(used for navigation)
+      role: "Master Thesis"
+      startdate: Feb 2021
+      enddate: Sep 2021
+      featuredpoints:
+        - point: Implementation of Deep Learning algorithms to improve forehead detection in thermal imagery.
+        - point: Framework - PyTorch.
+    - company: "SonaeMC"
+      # id: "facebook-developer" // use this, when you want to change the id(used for navigation)
+      role: "Data Analyst"
+      startdate: Aug 2020
+      enddate: Sep 2020
+      featuredpoints:
+        - point: Summer Internship.
+        - point: E-commerce Business Analytics.
+    - company: "Bosch"
+      # id: "amazon-developer" // use this, when you want to change the id(used for navigation)
+      role: "Software Engineer"
+      startdate: Jul 2019
+      enddate: Sep 2019
+      featuredpoints:
+        - point: Summer Internship.
+        - point: Research and Development of Authentication Protocols between mobile devices and a HMI.
+
+  # Education
+  disable_education: false
+  education:
+    - degree: "MSc in Data Science"
+      # branch: ""
+      university: "University of Amsterdam"
+      startedyear: "2021"
+      graduation: "2022"
+    - degree: "MSc in Electrical and Computer's Engineering"
+      branch: "- Robotics"
+      university: "University of Porto"
+      startedyear: "2019"
+      graduation: "2021"
+    - degree: "BSc in Electrical and Computer's Engineering"
+      # branch: ""
+      university: "Universty of Porto"
+      startedyear: "2016"
+      graduation: "2019"
+
+  # Projects
+  disable_projects: false
+  projects:
+    - name: "COVID-19 Face Mask Detection"
+      img: /images/project.jpg
+      githublink: "https://github.com/FranciscoPereira9/FaceMaskDetection-PyTorch"
+      featuredlink: "https://github.com/FranciscoPereira9/FaceMaskDetection-PyTorch"
+      description: "Faster R-CNN for detecting the usage of face masks on crowded places.
+      Implemented using PyTorch."
+    - name: "United Nation Speeches on Life Ladder"
+      img: /images/project.jpg
+      githublink: "https://github.com/rvdb7345/FODS"
+      featuredlink: "/"
+      description: "United Nation speech analysis from 1970-2020 matched with the World
+Happiness Report. Evaluation of how events over the years impact the
+sentiment of the speeches and prediction of a country's happiness score
+from its UN speech."
+
+  # Achievements
+  disable_achievements: true
+  achievements:
+    - title: Competition winner
+      description: We are developed a product which can help others.
+      img: /images/achiv.jpg
+      url: https://example.com
+    - title: Competition winner
+      description: We are developed a product which can help others.
+      img: /images/achiv.jpg
+      # url: https://example.com
+    - title: Competition winner
+      description: We are developed a product which can help others.
+      img: /images/achiv.jpg
+    - title: Competition winner
+      description: We are developed a product which can help others.
+      img: /images/achiv.jpg
+
+  # Contact
+  disable_contact: false
+  contact_content: Interested in having a chat? Feel free to hit me up!
+  email: "francisco.pereira@student.uva.nl"
+
+  # Footer
+  socialiconfooter: true
+  recentposts: true
+
+  # Blog
+  showdescription: false
+  tweet: true
