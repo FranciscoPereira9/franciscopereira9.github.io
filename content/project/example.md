@@ -20,6 +20,6 @@ Deep Learning has provided major breakthrough dealing with vision and text. For 
 
 Node [1] merges both techniques GBDTs and DNNs and claims to achieve state-of-the-art results.  How does it work? Traditional decision trees are not differentiable since they use binary splitting features. Differentiable models are necessary for gradient descent optimization and backpropagation. Node makes decisions trees differentiable and allows for end-to-end training via back-propagation like in "normal" DNNs.
 
-![node_aml](content\project\node_aml.jpeg)
+![node_aml](node_aml.jpeg)
 
 [1] Sergei Popov, Stanislav Morozov, & Artem Babenko. (2019). Neural Oblivious Decision Ensembles for Deep Learning on Tabular Data.
