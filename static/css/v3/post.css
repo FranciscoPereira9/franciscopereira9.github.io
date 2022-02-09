@@ -135,3 +135,34 @@ article kbd {
 article mark {
   background-color: #ffc21280;
 }
+
+a {
+  color: #393E46;
+}
+a:hover {
+  text-decoration:double;
+  color: #fdc238;
+}
+
+.news a {
+  color: #1c2d41 !important;
+  text-decoration: none;
+}
+
+.post-card-link a:hover {
+  text-decoration:double;
+  color: #393E46 !important;
+}
+
+.btn-outline-info {
+  background-color: #f9fafc;
+  color: #393E46;
+  border: 1px solid #393e43;
+  transition: 0.3s !important;
+}
+
+.btn-outline-info:hover {
+  background-color: #ffd369 !important;
+  color: #f9fafc !important;
+  border: 1px solid #ffd369;
+}

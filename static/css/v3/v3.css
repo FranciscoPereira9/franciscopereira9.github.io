@@ -5,15 +5,21 @@ body {
   font-family: "Noto Sans KR", sans-serif;
   background-color: #FCFCFC;
 }
-a:hover {
-  text-decoration: none;
+a {
+  color: #ffd369;
 }
+a:hover {
+  text-decoration:double;
+  color: #fdc238;
+}
+
 
 /* v3 home */
 .name {
   padding-left: 3%;
-  border-left: 4px solid #007bff;
+  border-left: 4px solid #ffd369;
 }
+
 .hi-text {
   font-size: 20px;
 }
@@ -41,16 +47,30 @@ a:hover {
 .social-icon {
   padding: 2%;
   background-color: #f9fafc !important;
-  color: #007bff !important;
-  border: 1px solid #007bff;
+  color: #393e43 !important;
+  border: 1px solid #393e43;
   border-radius: 50%;
   transition: 0.3s;
 }
 .social-icon:hover {
-  background-color: #007bff !important;
+  background-color: #ffd369 !important;
   color: #f9fafc !important;
-  border: 1px solid #007bff;
+  border: 1px solid #ffd369;
 }
+
+.btn-outline-info {
+  background-color: #f9fafc;
+  color: #393E46;
+  border: 1px solid #393e43;
+  transition: 0.3s !important;
+}
+
+.btn-outline-info:hover {
+  background-color: #ffd369 !important;
+  color: #f9fafc !important;
+  border: 1px solid #ffd369;
+}
+
 .intro {
   padding: 8% 0 8% 0;
 }
@@ -114,12 +134,12 @@ a:hover {
   padding-left: 2%;
   padding-right: 2%;
   font-size: 17px;
-  border: 1px solid #007bff;
+  border: 1px solid #ffd369;
   border-radius: 5%;
   border-radius: 10px !important;
 }
 .contact-btn:hover {
-  color: #007bff !important;
+  color: #ffd369 !important;
 }
 .progress {
   background-color: #f9fafc !important;
@@ -165,10 +185,23 @@ a:hover {
 .pro-github {
   color: #3a3b3c !important;
 }
-.pro:hover .pro-btn {
-  background-color: #3498db !important;
+
+.pro-btn{
+  color: #393E46;
+  border-color: #393E46;
+  background-color: transparent;
+}
+
+.pro-btn:hover {
+  background-color: #FFD369 !important;
+  border-color: #FFD369;
   color: #f9fafc;
 }
+
+.text-info{
+  color: #393E46 !important;
+}
+
 @media only screen and (max-width: 767px) {
   .bg-pro {
     opacity: 0.3;
@@ -211,7 +244,7 @@ a:hover {
 #experience {
 }
 #nav-pills-out {
-  border-left: 1px solid #007bff;
+  border-left: 1px solid #ffd369;
 }
 .nav-pills .nav-link {
 }
@@ -225,7 +258,7 @@ a:hover {
   content: "▹";
   position: absolute;
   left: 0px;
-  color: #007bff;
+  color: #ffd369;
 }
 .tab-pane {
 }
@@ -240,7 +273,7 @@ a:hover {
   content: "▹";
   position: absolute;
   left: 0px;
-  color: #007bff;
+  color: #ffd369;
 }
 .ex-ol {
   list-style-type: decimal-leading-zero;
@@ -263,7 +296,7 @@ a:hover {
   content: "▹";
   position: absolute;
   left: 0px;
-  color: #007bff;
+  color: #ffd369;;
 }
 @media only screen and (max-width: 768px) and (orientation: landscape) {
   .ex-ol {
@@ -274,6 +307,7 @@ a:hover {
   .ex-ol-item::before {
     padding-left: 17%;
     content: "▹";
+    color: #ffd369;
   }
 }
 

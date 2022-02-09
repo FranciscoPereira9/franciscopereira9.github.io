@@ -40,14 +40,15 @@ params:
   # About
   disable_about: false
   descripe_l1_person: "Welcome to my page!\n
-  My name is Francisco, I am 22 years old and originally from Portugal."
+  My name is Francisco, I am 23 years old and originally from Portugal."
 
-  descripe_l2_person: "I am currently a Data Science student at the University of Amsterdam and have a background in Electrical and Computers Engineering.\n
+  descripe_l2_person: "I am currently a Data Science student at the University of Amsterdam and hold a Master in Engineering in Electrical and Computers Engineering.\n
 
-  I preety much enjoy everything related to **math** and **computing**.
+  I enjoy everything related to **math** and **computing** and am specially interested in AI research.
   Data Science and Machine Learning is my playground, where I am able to tackle complex problems through a technological and analytical perspective.\n
   
   You can find some of my projects [here](#projects)."
+
   skills:
     - name: Python
     - name: PyTorch
@@ -99,12 +100,12 @@ params:
       university: "University of Amsterdam"
       startedyear: "2021"
       graduation: "2022"
-    - degree: "MSc in Electrical and Computer's Engineering"
+    - degree: "MEng in Electrical and Computer's Engineering"
       branch: "- Robotics"
       university: "University of Porto"
       startedyear: "2019"
       graduation: "2021"
-    - degree: "BSc in Electrical and Computer's Engineering"
+    - degree: "BEng in Electrical and Computer's Engineering"
       # branch: ""
       university: "Universty of Porto"
       startedyear: "2016"
@@ -152,9 +153,9 @@ from its UN speech."
   email: "francisco.pereira@student.uva.nl"
 
   # Footer
-  socialiconfooter: true
+  socialiconfooter: false
   recentposts: true
 
   # Blog
-  showdescription: false
+  showdescription: true
   tweet: true
