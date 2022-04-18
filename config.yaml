@@ -32,7 +32,7 @@ params:
   profile_image: "/images/fjahp.png"
   name: "Francisco Pereira"
   namecolor: ffc107
-  profession: Data Science student at Universty of Amsterdam.
+  profession: a Data Science student at Universty of Amsterdam.
   github: "https://github.com/FranciscoPereira9"
   linkedin: "https://www.linkedin.com/in/francisco-de-almeida-pereira/"
   twitter: "https://twitter.com/franciscop_9"
@@ -59,6 +59,13 @@ params:
   # Experience
   disable_experience: false
   experience:
+    - company: "QUvA Lab"
+      # id: "cycleai-developer"   // use this, when you want to change the id(used for navigation)
+      role: "AI Research Intern"
+      startdate: Jan 2022
+      enddate: Current
+      featuredpoints:
+        - point: Research in instance-wise interpretability of Deep Learning models with Graph Neural Networks (GNNs).
     - company: "CycleAI"
       # id: "cycleai-developer"   // use this, when you want to change the id(used for navigation)
       role: "Data Analyst"
@@ -69,7 +76,7 @@ params:
         - point: Data analysis on crowd-sourced polls and neural network resuls.
     - company: "Continental"
       # id: "google-developer"   // use this, when you want to change the id(used for navigation)
-      role: "Master Thesis"
+      role: "AI Research Intern"
       startdate: Feb 2021
       enddate: Sep 2021
       featuredpoints:
@@ -77,7 +84,7 @@ params:
         - point: Framework - PyTorch.
     - company: "SonaeMC"
       # id: "facebook-developer" // use this, when you want to change the id(used for navigation)
-      role: "Data Analyst"
+      role: "Software Engineer"
       startdate: Aug 2020
       enddate: Sep 2020
       featuredpoints:
@@ -115,19 +122,29 @@ params:
   disable_projects: false
   projects:
     - name: "COVID-19 Face Mask Detection"
-      img: /images/project.jpg
+      img: /images/facemask.jpg
       githublink: "https://github.com/FranciscoPereira9/FaceMaskDetection-PyTorch"
       featuredlink: "https://github.com/FranciscoPereira9/FaceMaskDetection-PyTorch"
       description: "Faster R-CNN for detecting the usage of face masks on crowded places.
       Implemented using PyTorch."
     - name: "United Nation Speeches on Life Ladder"
-      img: /images/project.jpg
-      githublink: "https://github.com/rvdb7345/FODS"
+      img: /images/united_nations_speeches.jpg
+      githublink: "https://github.com/FranciscoPereira9/FODS"
       featuredlink: "/"
       description: "United Nation speech analysis from 1970-2020 matched with the World
-Happiness Report. Evaluation of how events over the years impact the
-sentiment of the speeches and prediction of a country's happiness score
-from its UN speech."
+      Happiness Report. Evaluation of how events over the years impact the
+      sentiment of the speeches and prediction of a country's happiness score
+      from its UN speech."
+    - name: "Folding Blocks - Path Findinding Algorithms"
+      img: /images/project.jpg
+      githublink: "https://github.com/FranciscoPereira9/FEUP_IART"
+      featuredlink: "/"
+      description: "Implementation of path finding algorithms in Java to solve the folding blocks game. DFS, BFS and A*."
+    - name: "Footbal Matches Result Prediction"
+      img: /images/football_match.jpg
+      githublink: "https://github.com/FranciscoPereira9/FEUP_IART"
+      featuredlink: "/"
+      description: "Predicting football match results based on players and teams' attributes sourced from EA Sports' FIFA video game series."
 
   # Achievements
   disable_achievements: true
