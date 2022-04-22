@@ -6,7 +6,7 @@ github_link: "https://github.com/FranciscoPereira9"
 author: "Francisco Pereira"
 tags:
   - welcome
-bg_image: "/images/blog_welcome.jpg"
+bg_image: /images/blog_welcome.jpg
 description: "A welcome post."
 toc: 
 ---
