@@ -29,7 +29,7 @@ params:
 
   # home
   disable_home: false
-  profile_image: "/images/fjahp.png"
+  profile_image: "/images/me.jpeg"
   name: "Francisco Pereira"
   namecolor: ffc107
   profession: a Data Science student at Universty of Amsterdam.
@@ -49,12 +49,31 @@ params:
   
   You can find some of my projects [here](#projects)."
 
-  skills:
+  prog_lang:
     - name: Python
-    - name: PyTorch
-    - name: Scikit-Learn
     - name: SQL
     - name: R
+    - name: C
+
+  libraries_frameworks:
+    - name: PyTorch
+    - name: Scikit-Learn
+    - name: NLTK 
+    - name: Numpy
+    - name: Pandas
+    - name: Plotly
+
+  dev_tools:
+    - name: Git
+    - name: Docker
+    - name: Linux/Unix
+
+  skills:
+    - name: Deep Learning
+    - name: Feature Engineering
+    - name: Statistical Analysis
+  
+
 
   # Experience
   disable_experience: false
