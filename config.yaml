@@ -140,10 +140,20 @@ params:
   # Projects
   disable_projects: false
   projects:
-    - name: "COVID-19 Face Mask Detection"
+    - name: "Monte Carlo: Pricing and Hedging"
+      img: /images/montecarlo.jpg
+      githublink: "https://github.com/FranciscoPereira9/monte-carlo-option-pricing"
+      featuredlink: "/"
+      description: "Option pricing with Monte Carlo. Delta hedging with Bump and Revalue, Pathwise and Likelihood Ratio methods. Variance reduction techniques in Asian options."
+    - name: "Option Pricing with Binomial Tree Model"
+      img: /images/binom.jpg
+      githublink: "https://github.com/FranciscoPereira9/binomial_option_pricing"
+      featuredlink: "/"
+      description: "Pricing of European and American style option using the Binomial Tree model. Includes also the Black-Scholes formula to price European options."
+    - name: "COVID-19: Face Mask Detection" 
       img: /images/facemask.jpg
       githublink: "https://github.com/FranciscoPereira9/FaceMaskDetection-PyTorch"
-      featuredlink: "https://github.com/FranciscoPereira9/FaceMaskDetection-PyTorch"
+      featuredlink: "/"
       description: "Faster R-CNN for detecting the usage of face masks on crowded places.
       Implemented using PyTorch."
     - name: "United Nation Speeches on Life Ladder"
