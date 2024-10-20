@@ -23,6 +23,12 @@ export default defineNuxtConfig({
       bodyAttrs: {
         class: "antialiased bg-gray-50 dark:bg-black min-h-screen",
       },
+      link: [
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap'
+        }
+      ]
     },
   },
   content: {
@@ -31,9 +37,9 @@ export default defineNuxtConfig({
     },
   },
   googleFonts: {
-    display: "swap",
     families: {
-      Inter: [400, 500, 600, 700, 800, 900],
+      'JetBrains+Mono': [500],  // Specify the Medium (500) weight
     },
+    display: "swap",
   },
 });

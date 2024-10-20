@@ -13,7 +13,7 @@
           <li class="text-indigo-500">Mobile apps</li>
           <li class="text-rose-500">Websites</li>
           <li class="text-yellow-500">Admin dashboards</li>
-          <li class="text-teal-500">Landing pages</li>
+          <li class="text-orange-500">Landing pages</li>
           <li class="text-pink-500">Illustrations</li>
           <li class="text-sky-500">Icons</li>
         </ul>
