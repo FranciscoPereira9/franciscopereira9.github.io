@@ -4,11 +4,7 @@ export default defineNuxtConfig({
     prerender: {
       ignore: [
         '/writings/how-to-convert-a-svg-to-png-using-canvas.md', // Ignore route
-      ],
-      crawlLinks: false, // Optionally disable link crawling
-      // routes: [
-      //   '/', // List other routes you want to prerender
-      // ],
+      ]
     },
   },
   modules: [
