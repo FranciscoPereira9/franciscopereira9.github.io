@@ -27,15 +27,9 @@
     <p class="text-gray-900 dark:text-gray-400">
       I'm a Machine Learning Engineer and AI consultant based in Amsterdam, The Netherlands.
       I specialize in designing and building intelligent systems.
-      My tech stack is ...
     </p>
     <br/>
-    <p class="text-gray-900 dark:text-gray-400">
-      What I'm focusing on right now 🎯
-    </p>
-    <ul class="list-disc pl-5 text-gray-900 dark:text-gray-400">
-      <li>tinkering with some random tool or app that I am building</li>
-    </ul>
+    <p> I'm currently focusing on <InlineTextRotator/> </p>
   </div>
 </template>
 

@@ -1,0 +1,8 @@
+{
+  "name": "Binomial Option Pricing",
+  "url": "https://github.com/FranciscoPereira9/binomial_option_pricing?tab=readme-ov-file",
+  "description": "An implementation of the Binomial Tree model for European and American options.",
+  "thumbnail": "/projects/share-nodes.svg",
+  "status": "Done",
+  "opensource": true
+}

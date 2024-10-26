@@ -16,10 +16,11 @@
     ></div>
     <UAvatar
       :src="project.thumbnail"
-      :ui="{ rounded: 'rounded z-10 relative' }"
+      :ui="{rounded: 'rounded-md bg-gray-50' }"
       size="md"
       :alt="project.name"
     />
+
   </NuxtLink>
 </template>
 

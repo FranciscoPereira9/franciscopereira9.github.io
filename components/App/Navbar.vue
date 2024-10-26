@@ -49,14 +49,14 @@ const items = [
   {
     name: "Projects",
     path: "/projects",
-    icon: "solar:folder-with-files-outline",
+    icon: "heroicons:paint-brush",
   },
   {
-    name: "Articles",
-    path: "/articles",
+    name: "Writings",
+    path: "/writings",
     icon: "solar:document-add-outline",
   },
-  { name: "Lab", path: "/lab", icon: "heroicons:beaker" },
+// { name: "Lab", path: "/lab", icon: "heroicons:beaker" },  -->
   {
     name: "What's in my bag?",
     path: "/whats-in-my-bag",

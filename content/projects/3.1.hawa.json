@@ -1,8 +1,8 @@
 {
-  "name": "Hawa",
-  "url": "https://github.com/fayazara/hawa",
-  "description": "A simple white noise app which sits in the menubar",
-  "thumbnail": "/projects/hawa.png",
+  "name": "G2X",
+  "url": "https://github.com/FranciscoPereira9/G2X",
+  "description": "Graphs to Explain (G2X), is a model-agnostic interpretability method that combines graphs and other modalities to provide explanations.",
+  "thumbnail": "/projects/brain.svg",
   "status": "Active",
   "opensource": true
 }

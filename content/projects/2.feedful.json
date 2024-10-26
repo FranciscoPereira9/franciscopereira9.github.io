@@ -1,7 +1,7 @@
 {
-  "name": "Feedful",
-  "url": "https://feedful.app",
-  "description": "Modern news reader in tweetdeck style",
-  "thumbnail": "/projects/feedful.png",
+  "name": "Game Playing through Path Finding",
+  "url": "https://github.com/FranciscoPereira9/FEUP_IART/tree/master/FoldingBlocks",
+  "description": "Implementation of path finding algorithms to solve the folding blocks game.",
+  "thumbnail": "/projects/squares-plus.svg",
   "status": "Active"
 }

@@ -6,12 +6,12 @@
       :description="description"
     />
     <div class="space-y-24">
-      <ul class="space-y-8">
+      <ul class="space-y-8 bg-transparent">
         <AppUsesHeader title="Hardware" />
         <AppUsesItem v-for="(item, id) in hardware" :key="id" :item="item" />
       </ul>
       <ul class="space-y-8">
-        <AppUsesHeader title="Software" />
+        <AppUsesHeader title="Software" class="bg-transparent" />
         <AppUsesItem v-for="(item, id) in software" :key="id" :item="item" />
       </ul>
       <ul class="space-y-8">

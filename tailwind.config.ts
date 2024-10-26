@@ -12,11 +12,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        darkBg: '#121e1a',
         primary: {
           DEFAULT: '#ff9800',  // Default orange
           light: '#ffa726',    // Lighter shade for hover or other use
           dark: '#fb8c00',     // Darker shade for focus/active
-        },
+        }, // <-- Missing closing bracket added here
+      },
       boxShadow: {
         zoop: "rgba(102, 109, 128, 0.08) 0px 1.2672px 1.2672px 0px, rgba(102, 109, 128, 0.08) 0px 5.06879px 10.1376px 0px",
         zoopdark:
