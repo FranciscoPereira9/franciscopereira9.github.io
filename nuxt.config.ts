@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       ignore: [
-        '/writings/**', // Ignore all routes under /writings
+        '/writings/how-to-convert-a-svg-to-png-using-canvas.md', // Ignore route
       ],
       crawlLinks: false, // Optionally disable link crawling
       // routes: [
