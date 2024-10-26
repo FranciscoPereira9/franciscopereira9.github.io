@@ -58,8 +58,8 @@ const items = [
   },
 // { name: "Lab", path: "/lab", icon: "heroicons:beaker" },  -->
   {
-    name: "What's in my bag?",
-    path: "/whats-in-my-bag",
+    name: "Essentials",
+    path: "/essentials",
     icon: "solar:backpack-outline",
   },
   {
