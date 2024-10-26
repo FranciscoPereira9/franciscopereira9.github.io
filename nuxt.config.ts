@@ -1,11 +1,12 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   nitro: {
-  prerender: {
-    routes: [
-      '/writings/*', // List other routes
-      '/writings/how-to-convert-a-svg-to-png-using-canvas', // Skip problematic route
-    ],
+    prerender: {
+      routes: [
+        '/', // List other routes
+        '/writings/how-to-convert-a-svg-to-png-using-canvas', // Skip problematic route
+      ],
+    },
   },
   modules: [
     "@nuxt/ui",
