@@ -26,7 +26,10 @@
 
     <p class="text-gray-900 dark:text-gray-400">
       I'm a Machine Learning Engineer and AI consultant based in Amsterdam, The Netherlands.
-      I specialize in designing and building intelligent systems.
+      jI'm passionate about designing and building intelligent systems. Luckily, that's what I do for a living.
+    </p>
+    <p class="text-gray-900 dark:text-gray-400">
+      Welcome to my corner of the internet! 🤗
     </p>
     <br/>
     <p> I'm currently focusing on <InlineTextRotator/> </p>

@@ -25,24 +25,20 @@
 <script lang="ts" setup>
 const links = [
   {
-    name: "Twitter",
-    url: "https://twitter.com",
-    icon: "mdi:twitter",
-  },
-  {
     name: "GitHub",
     url: "https://github.com/FranciscoPereira9",
     icon: "mdi:github",
+  },
+  {
+    name: "Bluesky",
+    url: "https://bsky.app/profile/franciscojorge.bsky.social",
+    icon: "mdi:butterfly",
   },
   {
     name: "Linkedin",
     url: "https://www.linkedin.com/in/francisco-de-almeida-pereira/",
     icon: "mdi:linkedin",
   },
-  {
-    name: "Telegram",
-    url: "https://t.me",
-    icon: "mdi:telegram",
-  },
+
 ];
 </script>

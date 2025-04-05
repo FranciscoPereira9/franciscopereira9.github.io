@@ -5,12 +5,12 @@
     <ul
       class="block text-left leading-tight [&_li]:block animate-text-slide"
     >
-      <li class="text-indigo-500">MLOps.</li>
-      <li class="text-rose-500">Rust.</li>
-      <li class="text-yellow-500">Floorball.</li>
-      <li class="text-orange-500">ML Design.</li>
-      <li class="text-pink-500">Robotics.</li>
+      <li class="text-indigo-500">AI Engineering.</li>
+      <li class="text-rose-500">System Design.</li>
+      <li class="text-yellow-500">Learning Rust.</li>
+      <li class="text-sky-500">Building.</li>
       <li class="text-sky-500">Writing.</li>
+      <li class="text-sky-500">French.</li>
     </ul>
   </span>
 </template>
