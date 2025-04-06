@@ -1,16 +1,16 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  nitro: {
-    prerender: {
-      ignore: [
-        '/writings/**', // Ignore all routes under /writings
-      ],
-      crawlLinks: false, // Optionally disable link crawling
-      // routes: [
-      //   '/', // List other routes you want to prerender
-      // ],
-    },
-  },
+  // nitro: {
+  //   prerender: {
+  //     ignore: [
+  //       '/writings/**', // Ignore all routes under /writings
+  //     ],
+  //   //   crawlLinks: false, // Optionally disable link crawling
+  //   //   // routes: [
+  //   //   //   '/', // List other routes you want to prerender
+  //   //   // ],
+  //   // },
+  // },
   modules: [
     "@nuxt/ui",
     "nuxt-icon",
@@ -25,7 +25,6 @@ export default defineNuxtConfig({
     icons: ["heroicons", "lucide"],
   },
   app: {
-    baseURL: process.env.NODE_ENV === 'production' ? '/franciscopereira9.github.io/' : '/',
     pageTransition: { name: "page", mode: "out-in" },
     head: {
       htmlAttrs: {
