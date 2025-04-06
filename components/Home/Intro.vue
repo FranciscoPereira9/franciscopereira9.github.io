@@ -32,7 +32,7 @@
       Welcome to my corner of the internet! 🤗
     </p>
     <br/>
-    <p> I'm currently focusing on <InlineTextRotator/> </p>
+    <p> Lately, I've been spending my time <InlineTextRotator/> </p>
   </div>
 </template>
 
