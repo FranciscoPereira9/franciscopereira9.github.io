@@ -25,6 +25,7 @@ export default defineNuxtConfig({
     icons: ["heroicons", "lucide"],
   },
   app: {
+    baseURL: process.env.NODE_ENV === 'production' ? '/franciscopereira9.github.io/' : '/',
     pageTransition: { name: "page", mode: "out-in" },
     head: {
       htmlAttrs: {
@@ -45,9 +46,6 @@ export default defineNuxtConfig({
   content: {
     highlight: {
       theme: "github-dark",
-    },
-    experimental: {
-      clientDB: true
     }
   },
   googleFonts: {
