@@ -21,12 +21,12 @@
 
     </p>
     <p class="text-gray-900 dark:text-gray-400">
-      Hi there, Francisco here 👋
+      Hi there, I'm Francisco 👋
     </p>
 
     <p class="text-gray-900 dark:text-gray-400">
       I'm a Machine Learning Engineer and AI consultant based in Amsterdam, The Netherlands.
-      jI'm passionate about designing and building intelligent systems. Luckily, that's what I do for a living.
+      I'm passionate about designing and building intelligent systems.
     </p>
     <p class="text-gray-900 dark:text-gray-400">
       Welcome to my corner of the internet! 🤗
